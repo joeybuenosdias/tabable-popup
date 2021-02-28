@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="popup">
+        <div id="popup-background">
+            <div id="popup-wrapper">
+                <div id="popup-header">
+                    <button value="0" class="popup-tab active">
+                        Tab 1
+                    </button>
+                    <button value="1" class="popup-tab">
+                        Tab 2
+                    </button>
+                    <button value="2" class="popup-tab">
+                        Tab 3
+                    </button>
+                </div>
+                <div id="popup-content-wrapper">
+                    <div data-value="0" class="popup-content active">
+                        I am the content for Tab 1
+                    </div>
+                    <div data-value="1" class="popup-content">
+                        I am the content for Tab 2
+                    </div>
+                    <div data-value="2" class="popup-content">
+                        I am the content for Tab 3
+                    </div>
+                </div>
+                <button class="modal-button">Close Modal</button>
+            </div>
+        </div>
+    </div>
+    <button class="modal-button">Open Modal</button>
+    <script src="main.js"></script>
+</body>
+</html>
